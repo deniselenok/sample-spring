@@ -11,9 +11,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Slf4j
 @SpringBootApplication(exclude = RepositoryRestMvcAutoConfiguration.class)
-@ComponentScan("agileengine.task")
+@ComponentScan("delenok.task")
 @EnableScheduling
-@EnableMongoRepositories("agileengine.task.repository")
+@EnableMongoRepositories("delenok.task.repository")
 @EnableWebMvc
 public class Initializer {
 

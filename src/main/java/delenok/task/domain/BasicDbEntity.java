@@ -13,6 +13,6 @@ public abstract class BasicDbEntity {
 
     @Id
     @Indexed
-    @JsonProperty(required = false)
+    @JsonProperty
     protected String id;
 }

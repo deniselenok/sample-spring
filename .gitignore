@@ -1,0 +1,14 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+target/
+*.vpp~1
+*.vpp
+.vpp~*
+
+.idea/*
+*.iml
